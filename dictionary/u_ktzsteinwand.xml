@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Kleintierzucht" max_length="40" name="u_ktzsteinwand" type="collection">
+        <element attributes="import_attribute_name=comment_agent,edge_encryption_enabled=true" label="comment_agent" max_length="255" name="u_comment_agent" type="string"/>
+        <element attributes="import_attribute_name=comment_approved,edge_encryption_enabled=true" label="comment_approved" max_length="40" name="u_comment_approved" type="string"/>
+        <element attributes="import_attribute_name=comment_author,edge_encryption_enabled=true" label="comment_author" max_length="255" name="u_comment_author" type="string"/>
+        <element attributes="import_attribute_name=comment_author_email,edge_encryption_enabled=true" label="comment_author_email" max_length="100" name="u_comment_author_email" type="string"/>
+        <element attributes="import_attribute_name=comment_author_IP,edge_encryption_enabled=true" label="comment_author_IP" max_length="100" name="u_comment_author_ip" type="string"/>
+        <element attributes="import_attribute_name=comment_author_url,edge_encryption_enabled=true" label="comment_author_url" max_length="200" name="u_comment_author_url" type="string"/>
+        <element attributes="import_attribute_name=comment_content,edge_encryption_enabled=true" label="comment_content" max_length="65535" name="u_comment_content" type="string"/>
+        <element attributes="import_attribute_name=comment_date" label="comment_date" max_length="40" name="u_comment_date" type="datetime"/>
+        <element attributes="import_attribute_name=comment_date_gmt" label="comment_date_gmt" max_length="40" name="u_comment_date_gmt" type="datetime"/>
+        <element attributes="import_attribute_name=comment_ID" label="comment_ID" max_length="40" name="u_comment_id" type="long"/>
+        <element attributes="import_attribute_name=comment_karma" label="comment_karma" max_length="40" name="u_comment_karma" type="integer"/>
+        <element attributes="import_attribute_name=comment_parent" label="comment_parent" max_length="40" name="u_comment_parent" type="long"/>
+        <element attributes="import_attribute_name=comment_post_ID" label="comment_post_ID" max_length="40" name="u_comment_post_id" type="long"/>
+        <element attributes="import_attribute_name=comment_type,edge_encryption_enabled=true" label="comment_type" max_length="40" name="u_comment_type" type="string"/>
+        <element attributes="import_attribute_name=user_id" label="user_id" max_length="40" name="u_user_id" type="long"/>
+    </element>
+</database>
